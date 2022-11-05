@@ -32,10 +32,13 @@ Sean $f,g,h\in \Omega(X)$.
 
 + Necesitamos que $f\cong f $ $\text{rel}$ $0,1$ (reflexividad) , esto lo conseguimos con la homotopia $F:I\times I \to X$ dada por $F(s,t)=f(t)$. 
 + Queremos ver que $f\cong g$ $\text{rel}$ $0,1$ implica $g\cong f$ $\text{rel}$ $0,1$. Ahora , si consideramos la homotopia $F:I\times I\to X$ de $f$ a $g$ $\text{rel}$ $0,1$ , definimos $G:I\times I\to X$ como $G(s,t)=F(1-s,t)$ (el $1-s$ "voltea" la homotopia). 
-+ Por ultimo requerimos que si $f\cong g$ $\text{rel}$ $0,1$ y $g\cong h$ $\text{rel}$ $0,1$ entonces $f\cong h$ $\text{rel}$ $0,1$. Si $F:I\times I \to X$ y $G: I\times I \to X$ son homotopias de $f$ a $g$ y de $g$ a $h$ respectivamente , definimos $H:I\times I \to X$ como sigue $$H(s,t)=\begin{cases}
++ Por ultimo requerimos que si $f\cong g$ $\text{rel}$ $0,1$ y $g\cong h$ $\text{rel}$ $0,1$ entonces $f\cong h$ $\text{rel}$ $0,1$. Si $F:I\times I \to X$ y $G: I\times I \to X$ son homotopias de $f$ a $g$ y de $g$ a $h$ respectivamente , definimos $H:I\times I \to X$ como sigue 
+
+
+$H(s,t)=\begin{cases}
 F(s,2t) & \text{ si } t\in [0,\frac{1}{2}] \\
 G(s,2t-1) & \text{ si } t\in [\frac{1}{2},1] 
-\end{cases}$$
+\end{cases}$
 
 
 $\blacksquare$
