@@ -19,7 +19,7 @@ Podemos pensar a $t$ como un parametro de tiempo. Entonces nuestra deformación 
 
 **Definición 2:** Diremos que la homotopia de caminos $F:I\times I\to X$ es relativa a los extremos , denotado $\text{rel} \ 0,1$ si $F(0,t)=x_{0}$ para todo $t$ y $F(1,t)=x_{1}$ para todo $t$ , donde $x_{0},$x_{1}\in X$. 
 
-Dos caminos $f_{0}$ y $f_{1}$ tales que $f_{0}=f_{1}(0)$ y $f_{1}(1)=f_{1}(1)$ (ambos tienen los mismos puntos iniciales y finales) en $X$ son homotopicos en $\text{rel} \ 0,1$ si hay una homotopia entre ellos , es decir que a $f_{0}$ lo puedo deformar a  $f_{1}$ dejando fijos a los extremos. Lo anterior lo podemos denotar $f_{0}\cong f_{1} \ \tex{rel} \ 0,1$. 
+Dos caminos $f_{0}$ y $f_{1}$ tales que $f_{0}=f_{1}(0)$ y $f_{1}(1)=f_{1}(1)$ (ambos tienen los mismos puntos iniciales y finales) en $X$ son homotopicos en $\text{rel} \ 0,1$ si hay una homotopia entre ellos , es decir que a $f_{0}$ lo puedo deformar a  $f_{1}$ dejando fijos a los extremos. Lo anterior lo podemos denotar $f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
 
 
 
