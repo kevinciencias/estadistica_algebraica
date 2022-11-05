@@ -22,7 +22,7 @@ Podemos pensar a $t$ como un parametro de tiempo. Entonces nuestra deformación 
 Dos caminos $f_{0}$ y $f_{1}$ tales que $f_{0}=f_{1}(0)$ y $f_{1}(1)=f_{1}(1)$ (ambos tienen los mismos puntos iniciales y finales) en $X$ son homotopicos en $\text{rel} \ 0,1$ si hay una homotopia entre ellos , es decir que a $f_{0}$ lo puedo deformar a  $f_{1}$ dejando fijos a los extremos. Lo anterior lo podemos denotar $f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
 
 
-Ahora vamos a considerar el conjunto de todos los caminos en $X$ : $\Omega(X) =\left\{f:I\to X \right\}$ , a partir de este conjunto es muy natural pensar en esta relacion de equivalencia para $f_{0},f_{1}\in \Omega(X)$ , $f_{0}\sim f_{1} \Leftrightarrow f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
+Ahora vamos a considerar el conjunto de todos los caminos en $X$ : $\Omega(X) =\left\{f : I\to X \right\}$ , a partir de este conjunto es muy natural pensar en esta relacion de equivalencia para $f_{0},f_{1}\in \Omega(X)$ , $f_{0}\sim f_{1} \Leftrightarrow f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
 
 **Proposición 0:** La relacion $\sim$ en $\Omega(X)$ es una relación de equivalencia.
 
