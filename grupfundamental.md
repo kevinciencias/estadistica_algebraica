@@ -1,4 +1,4 @@
-# Equivalencias de Homotopia. 
+# Grupo fundamental. 
 
 
 Recordemos que los espacios topologicos $X$ , $Y$ son homeomorfos si existen funciónes continuas $f:X \to Y$ y $g:Y\to X$ tal que $g\circ f=\text{Id}{X}$ y $f\circ g=\text{Id}{Y}$ , diremos que $f$ y $g$ homeomorfismos. Por ejemplo si consideramos como espacios topologicos a las letras $M$ y $N$ podemos construir un homeomorfismo entre ellas. 
@@ -20,6 +20,19 @@ Podemos pensar a $t$ como un parametro de tiempo. Entonces nuestra deformación 
 **Definición 2:** Diremos que la homotopia de caminos $F:I\times I\to X$ es relativa a los extremos , denotado $\text{rel} \ 0,1$ si $F(0,t)=x_{0}$ para todo $t$ y $F(1,t)=x_{1}$ para todo $t$ , donde $x_{0},$x_{1}\in X$. 
 
 Dos caminos $f_{0}$ y $f_{1}$ tales que $f_{0}=f_{1}(0)$ y $f_{1}(1)=f_{1}(1)$ (ambos tienen los mismos puntos iniciales y finales) en $X$ son homotopicos en $\text{rel} \ 0,1$ si hay una homotopia entre ellos , es decir que a $f_{0}$ lo puedo deformar a  $f_{1}$ dejando fijos a los extremos. Lo anterior lo podemos denotar $f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
+
+
+Ahora vamos a considerar el conjunto de todos los caminos en $X$ : $\Omega(X) =\left\{f:I\to X \right\}$ , a partir de este conjunto es muy natural pensar en esta relacion de equivalencia para $f_{0},f_{1}\in \Omega(X)$ , $f_{0}\sim f_{1} \Leftrightarrow f_{0}\cong f_{1} \ \text{rel} \ 0,1$. 
+
+**Proposición 0:** La relacion $\sim$ en $\Omega(X)$ es una relación de equivalencia.
+
+**Demostración :**
+
+Sean $f,g,h\in \Omega(X)$. 
+
++ Necesitamos que $f\cong f $ $\text{rel}$ $0,1$ (reflexividad) , esto lo conseguimos con la homotopia $F:I\times I \to X$ dada por $F(s,t)=f(t)$. 
++ Queremos ver que $f\cong g$ $\text{rel}$ $0,1$ implica $g\cong f$ $\text{rel}$ $0,1$. Ahora , si consideramos la homotopia $F:I\times I\to X$ de $f$ a $g$ $\text{rel}$ $0,1$ , definimos $G:I\times I\to X$ como $G(s,t)=F(1-s,t)$ 
++ Por ultimo requerimos que si $f\cong g$ $\text{rel}$ $0,1$ y $g\cong h$ $\text{rel}$ $0,1$ entonces $f\cong h$ $\text{rel}$ $0,1$. 
 
 
 
